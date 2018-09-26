@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>wind.mode.decorator</module>
+      <module>wind.mode.template</module>
   </modules>
 
   <name>wind_mode</name>
