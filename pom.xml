@@ -11,6 +11,7 @@
   <modules>
     <module>wind.mode.decorator</module>
       <module>wind.mode.template</module>
+    <module>wind.mode.proxy</module>
   </modules>
 
   <name>wind_mode</name>
@@ -25,12 +26,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
     <!-- System rules库基于控制台输出编写断言，用于断言System.out.pringln()的输出 -->
     <dependency>
       <groupId>com.github.stefanbirkner</groupId>
